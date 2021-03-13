@@ -17,12 +17,12 @@ class SourceConverterTest {
 
     @Test
     fun convertXtea() {
-        convert("xtea")
+        convert("xt")
     }
 
     @Test
     fun convertXteaSpringBoot() {
-        convert("xtea-spring-boot")
+        convert("xt-spring-boot")
     }
 
     private fun convert(name: String) {
