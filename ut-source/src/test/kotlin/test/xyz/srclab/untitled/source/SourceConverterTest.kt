@@ -20,6 +20,11 @@ class SourceConverterTest {
         convert("xtea")
     }
 
+    @Test
+    fun convertXteaSpringBoot() {
+        convert("xtea-spring-boot")
+    }
+
     private fun convert(name: String) {
         val yamlStr = "source.yml".loadStringResource()
         val yaml = Yaml()
